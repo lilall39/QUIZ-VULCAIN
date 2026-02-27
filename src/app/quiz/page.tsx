@@ -272,7 +272,12 @@ export default function QuizPage() {
             </div>
           )}
 
-          <footer className="pt-6 border-t border-gray-100 flex justify-end">
+          <footer className="pt-6 border-t border-gray-100 flex justify-end gap-3">
+            {showFeedback && (
+              <div className="px-6 py-4 bg-blue-50 text-blue-700 font-bold rounded-2xl border border-blue-100 flex items-center shadow-sm">
+                Score : {scores.filter(Boolean).length} / {scores.length}
+              </div>
+            )}
             {!showFeedback ? (
               <button
                 onClick={handleValidate}

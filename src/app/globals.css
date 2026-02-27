@@ -7,7 +7,12 @@
   --foreground: #0f172a;
 }
 
+html {
+  font-size: 18px;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
+  font-size: 1rem;
 }

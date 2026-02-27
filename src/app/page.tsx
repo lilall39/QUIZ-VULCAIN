@@ -8,6 +8,8 @@ export default function Home() {
       </h1>
       <p className="text-xl text-gray-600 max-w-2xl">
         Explorez les résumés des chapitres, analysez les personnages et testez vos connaissances avec notre quiz interactif.
+        <br />
+        Bienvenue Kheiréddine sur l'univers des oubliés de Vulcain.
       </p>
       <div className="flex flex-col sm:flex-row gap-4">
         <Link

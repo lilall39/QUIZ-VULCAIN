@@ -10,6 +10,8 @@ export default function Home() {
         Explorez les résumés des chapitres, analysez les personnages et testez vos connaissances avec notre quiz interactif.
         <br />
         Bienvenue Kheiréddine sur l'univers des oubliés de Vulcain.
+        <br />
+        Va dans "ressources", en haut à droite, tu y trouveras le résumé des chapitres et la description des personnages.
       </p>
       <div className="flex flex-col sm:flex-row gap-4">
         <Link

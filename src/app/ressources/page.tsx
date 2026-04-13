@@ -9,6 +9,17 @@ export default function RessourcesPage() {
   return (
     <div className="space-y-12">
       <header className="space-y-4">
+        <p className="text-gray-600 text-sm">
+          Livre présenté par Clément Tauvron, sur le site :{" "}
+          <a
+            href="https://www.lesresumes.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline break-all"
+          >
+            https://www.lesresumes.com/
+          </a>
+        </p>
         <h1 className="text-3xl font-bold text-gray-900">Données Sources - Vulcain</h1>
         <p className="text-gray-600">
           Tu peux lire les résumés de chaque chapitre et la description des personnages, en dessous, et aussi, si tu cliques sur le lien, avoir des résumés plus "poussés".
@@ -19,7 +30,7 @@ export default function RessourcesPage() {
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline text-sm inline-block mt-2"
           >
-            Résumés plus longs, si ça t'interesse, pour chaque cahpitre
+            Résumés plus longs, si ça t'intéresse, pour chaque chapitre
           </a>
         </p>
       </header>

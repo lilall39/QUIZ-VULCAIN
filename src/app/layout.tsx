@@ -23,7 +23,8 @@ export default function RootLayout({
             <div className="flex justify-between h-24 items-center">
               <div className="flex-shrink-0 flex items-center">
                 <Link href="/" className="text-xl font-bold text-blue-600">
-                  VULCAIN
+                  VULCAIN{" "}
+                  <span className="font-semibold">: LE LIVRE</span>
                 </Link>
               </div>
               <div className="flex space-x-8">
@@ -48,7 +49,7 @@ export default function RootLayout({
         </main>
         <footer className="bg-white border-t border-gray-200 py-6 mt-12">
           <div className="max-w-5xl mx-auto px-4 text-center text-gray-500 text-sm">
-            © 2026 Quiz Vulcain - Tous droits réservés
+            © 2026 Quiz Vulcain - Tramelle - Tous droits réservés
           </div>
         </footer>
       </body>

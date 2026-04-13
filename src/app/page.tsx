@@ -14,12 +14,12 @@ export default function Home() {
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center text-center space-y-6 p-6 max-w-4xl mx-auto">
         <h1 className="text-3xl sm:text-6xl font-extrabold text-gray-900 tracking-tight leading-tight">
-          Bienvenue KHEIREDDINE sur l'Univers de <span className="text-blue-600 block sm:inline">Vulcain</span>
+          Bienvenue sur l'Univers de <span className="text-blue-600 block sm:inline">Vulcain</span>
         </h1>
         <p className="text-lg sm:text-xl text-gray-900 font-semibold bg-white/40 p-4 rounded-2xl backdrop-blur-md shadow-sm border border-white/50 max-w-2xl mx-auto">
           Tu trouveras le résumé des chapitres, la description des personnages dans l'onglet "résumés" en haut à droite.
           <br className="hidden sm:block" />
-          <span className="sm:mt-2 block">Il y a aussi un quiz ;)</span>
+          <span className="sm:mt-2 block">Et un quiz pour tester tes connaissances ;)</span>
         </p>
         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-4 sm:px-0">
           <Link

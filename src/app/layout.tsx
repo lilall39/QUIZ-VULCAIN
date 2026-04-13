@@ -22,9 +22,11 @@ export default function RootLayout({
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-24 items-center">
               <div className="flex-shrink-0 flex items-center">
-                <Link href="/" className="text-xl font-bold text-blue-600">
-                  VULCAIN{" "}
-                  <span className="font-semibold">: LE LIVRE</span>
+                <Link href="/" className="text-xl font-bold text-blue-600 flex flex-wrap items-baseline gap-x-1">
+                  <span>Les oubliés de VULCAIN</span>
+                  <span className="text-sm font-bold text-gray-600">
+                    de Danielle Martinigol (aide aux devoirs)
+                  </span>
                 </Link>
               </div>
               <div className="flex space-x-8">

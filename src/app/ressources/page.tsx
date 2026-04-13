@@ -22,15 +22,16 @@ export default function RessourcesPage() {
         </p>
         <h1 className="text-3xl font-bold text-gray-900">Données Sources - Vulcain</h1>
         <p className="text-gray-600">
-          Tu peux lire les résumés de chaque chapitre et la description des personnages, en dessous, et aussi, si tu cliques sur le lien, avoir des résumés plus "poussés".
+          Tu peux lire les résumés courts de chaque chapitre, la description des personnages en dessous, et aussi, si tu cliques sur le lien, avoir des résumés plus "poussés".
           <br />
           <a 
             href="https://www.lesresumes.com/litterature/danielle-martinigol-les-oublies-de-vulcain-resume-presentation-des-personnages-et-analyse/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:underline text-sm inline-block mt-2"
+            className="text-blue-600 hover:underline text-sm inline-flex items-center gap-1.5 mt-2"
           >
-            Résumés plus longs, si ça t'intéresse, pour chaque chapitre
+            <span aria-hidden="true" className="text-blue-500 select-none">→</span>
+            Résumés plus longs pour chaque chapitre
           </a>
         </p>
       </header>
